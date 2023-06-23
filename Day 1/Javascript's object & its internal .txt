@@ -1,0 +1,19 @@
+Javascript's object & its internal representation:
+
+A JavaScript object is essentially a set of key-value pairs, where each key is a name for a property and each value is a legal data type.
+
+JavaScript objects are internally constructed as dictionaries or hash tables. This implies that the JavaScript engine allocates memory to hold an object's properties and their corresponding values when the object is formed. An object's properties can be dynamically added, changed, or removed while the object is being used, offering JavaScript objects a great degree of flexibility.
+
+Prototypes and inheritance: 
+
+The inheritance mechanism used by JavaScript is prototype-based. In JavaScript, every object has an internal reference to a prototype of another object. If an object's requested property or method doesn't exist, JavaScript looks for it in the object's prototype. This chain continues until the method or property is discovered, or until the prototype chain's end is reached.
+
+Object Descriptors: 
+
+Each property in an object has a corresponding descriptor that describes the behaviour of that property. The descriptor includes characteristics like readable (if the property can be modified), enumerable (whether the property is visible during certain actions, such as looping), and configurable (whether the property may be deleted or its characteristics changed).
+
+
+Object Identity and Comparison:
+
+JavaScript compares objects by reference to determine their identity. Only when two objects make reference to the same memory address are they deemed equal. When primitive types like strings or numbers are compared, their values are taken into account.
+

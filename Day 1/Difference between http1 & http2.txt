@@ -1,0 +1,23 @@
+Difference between http1 & http2
+
+Request-Response Model: 
+The request-response model used by HTTP/1 stipulates that each request and response must be sent over a separate connection. Contrarily, HTTP/2 minimises latency by enabling the simultaneous transmission of numerous requests and responses over a single connection.
+
+Compression of headers: 
+HTTP/1 provides headers as plain text with each request and response, causing redundant data transfer. By using header compression, HTTP/2 greatly lowers overhead and boosts performance.
+
+
+Multiplexing: 
+If a prior request or response is still being processed, subsequent requests will be delayed due to head-of-line blocking in HTTP/1. With the addition of multiplexing in HTTP/2, head-of-line blocking is eliminated, concurrent requests and responses are made possible inside a single connection, and overall performance is enhanced.
+
+Server Push:
+ Server Push is a feature of HTTP/2 that enables the server to transfer resources to the client without waiting for explicit requests. By reducing the number of additional round trips, this function speeds up page loads.
+
+Prioritisation:
+ Stream prioritisation is supported by HTTP/2, giving clients the ability to prioritise requests. This enables the prioritisation of essential resources, resulting in faster delivery and a better user experience.
+
+Binary Protocol:
+ HTTP/2 uses a binary protocol, which is more effective for data transmission and parsing than HTTP/1, which uses a text-based protocol.
+
+TLS Encryption: 
+Although not unique to HTTP/2, HTTP/2 encourages and extensively adopts the use of Transport Layer Security (TLS) encryption, enhancing security and privacy.
