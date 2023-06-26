@@ -1,0 +1,21 @@
+1. Document object:
+
+Web page or document currently loaded in the browser window is represented by the "document" object. It offers tools and features that let users engage and change the document's content. The "document" object, which is a component of the Document Object Model (DOM), enables you to access and change the webpage's elements, styles, events, and other features. You can use it to carry out operations like choosing items, changing their characteristics or content, adding new elements, or managing document-related events.
+Uses for the document object, 
+for instance:
+
+
+HTML elements can be accessed and changed by typing, *document.getElementById("myElement")
+*document.getElementById("myElement") modifies the element's *content.'New content' innerHTML
+
+New elements can be created by typing, *document.createElement("div").
+*Event handling: document.addEventListener("click," myFunction)
+
+2.Window Object: 
+
+The browser window or tab that shows the web page is represented by the "window" object. It functions as a global object and offers tools for managing and controlling the browser window, including attributes and methods. You may interact with the browser's functions and capabilities by using the "window" object, which enables you to change URLs, open new windows or tabs, modify the browser history, and control cookies.
+Uses for the window object, for instance:
+
+
+New window being opened: window.open("https://example.com"
+Changing the URL: window.location.href = "https://example.com"
