@@ -1,0 +1,128 @@
+1. Print odd numbers in an array
+
+let arr=[0,1,2,3,4,5,6,7,8,9];
+
+let odd = function () {
+  let odd= arr.filter(num => num %2 ==1)
+  console.log(odd)
+}
+odd()
+
+Output: [1,3,5,7,9]
+
+
+2. Convert all the strings to title caps in a string array
+
+let str = function () {
+  let arr = "gladson jerome"
+  let titlecase = arr.toLowerCase().replace(/\b(\w)/g, s => s.toUpperCase());
+  console.log(titlecase)
+}
+str()
+
+OUTPUT: Gladson Jerome
+
+
+3.Sum of all numbers in an array
+
+let func = function () {
+    
+  let ar = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  let sum = ar.reduce(function(a, b){
+      return a + b;
+  });
+  console.log(sum);
+}
+func()
+
+OUTPUT: 45
+
+
+4. Return all the prime numbers in an array
+
+let prime = function (arr) {
+  return arr.filter(function(n){
+    for (let i = 2; i < n; i++) {
+      if (n % i === 0) return false;
+    }
+    return n > 1;
+  });
+};
+console.log(prime([2, 3, 4, 5, 6]));
+
+OUTPUT: [2,3,5]
+
+
+5. Return all the palindromes in an array
+
+const array = ['mom', 'bye', 'radar', 'world', 'bob'];
+
+const palindromes = array.filter(word => {
+  const reversedWord = word.split('').reverse().join('');
+  return word === reversedWord;
+});
+
+console.log(palindromes);
+
+OUTPUT: ['mom', 'radar', 'bob']
+
+
+6. Return median of two sorted arrays of same size.
+
+const findMedianSortedArrays = (arr1, arr2) => {
+  const mergedArray = [...arr1, ...arr2];
+  const sortedArray = mergedArray.sort((a, b) => a - b);
+  const length = sortedArray.length;
+  
+  if (length % 2 === 0) {
+    const midIndex = length / 2;
+    return (sortedArray[midIndex - 1] + sortedArray[midIndex]) / 2;
+  } else {
+    const midIndex = Math.floor(length / 2);
+    return sortedArray[midIndex];
+  }
+};
+
+const array1 = [1, 3, 5, 7, 9];
+const array2 = [2, 4, 6, 8, 10];
+
+const median = findMedianSortedArrays(array1, array2);
+console.log(median);
+
+OUTPUT: 5.5
+
+
+7. Remove duplicates from an 
+
+let findDuplicates = function () {
+  
+  const yourArray = [1, 1, 2, 2, 3, 4, 5, 5]
+  let duplicates = []
+  const tempArray = [...yourArray].sort() 
+  for (let i = 0; i < tempArray.length; i++) {
+    if (tempArray[i + 1] === tempArray[i]) {
+      duplicates.push(tempArray[i])
+    }
+  }
+  console.log(duplicates) 
+}
+findDuplicates()
+
+OUTPUT:  [1, 2, 5]
+
+
+8. Rotate an array by k times.
+
+let rotateArray =function(A, K) {
+  if (A.length === K || K === 0) {
+      return A;
+  }
+  K = K % A.length;
+  for (let i = 0; i < K; i++) {
+      A.unshift(A.pop());
+  }
+console.log(A)
+}
+rotateArray([5, 4, 3, 2, 1],2)
+
+OUTPUT: [ 2, 1, 5, 4, 3 ]
