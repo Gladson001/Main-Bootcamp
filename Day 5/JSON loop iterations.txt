@@ -1,0 +1,68 @@
+1. for loop:
+
+const data = {
+  name: "Gladson",
+  age: 22,
+  city: "chennai"
+};
+
+for (let key in data) {
+  console.log(key + ": " + data[key]);
+}
+
+OUTPUT: 
+name: Gladson
+age: 22
+city: chennai
+
+
+2. for in:
+
+const data = {
+  name: "Jerome",
+  age: 20,
+  city: "LA"
+};
+
+for (let key in data) {
+  console.log(key + ": " + data[key]);
+}
+
+OUTPUT:
+name: Jerome
+age: 20
+city: LA
+
+
+3.forEach():
+
+const numbers = [1, 2, 3, 4, 5, 6, 7];
+
+numbers.forEach((num) => {
+  console.log(num);
+});
+
+OUTPUT:
+1
+2
+3
+4
+5
+6
+7
+
+
+4. for of:
+
+const numbers = [1, 2, 3];
+
+for (let num of numbers) {
+  console.log(num);
+}
+
+OUTPUT:
+1
+2
+3
+
+

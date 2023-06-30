@@ -1,0 +1,39 @@
+{
+  "name": "Gladson Jerome",
+  "title": "Software Developer",
+  "contact": {
+    "email": "jerome23@email.com",
+    "phone": "9874563210",
+    "address": "456 Main Street, LA, CA, 007"
+  },
+    {
+      "title": "Software Developer",
+      "company": "PAYPAL ",
+      "location": "LA, CA",
+      "duration": "2022 - present",
+      "responsibilities": [
+        "Contributed to the development of a large-scale e-commerce platform using Python and Django framework.",
+        "Worked closely with the design team to create user-friendly interfaces.",
+        "Integrated third-party APIs for payment processing and order fulfillment.",
+        "Participated in agile development sprints and provided input for project planning and estimation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University of Yale",
+      "location": "City, State",
+      "graduationYear": "2022"
+    }
+  ],
+  "skills": [
+    "Programming Languages: JavaScript, Python, Java",
+    "Web Development: HTML, CSS, React, Django",
+    "Database: MySQL, MongoDB",
+    "Version Control: Git",
+    "Agile Methodologies",
+    "Problem Solving",
+    "Teamwork"
+  ]
+}
