@@ -38,3 +38,8 @@ class UberPrice {
 const fare = new UberPrice(10, "ubermicro");
 const price = fare.calculateprice();
 console.log(price);  
+
+/*
+OUTPUT:
+
+price: 60
