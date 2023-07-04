@@ -45,6 +45,10 @@ const person = new Person("Gladson Jerome", 22, "57 Downtown, CA.", "jerome97@gm
 console.log(person.getName());
 console.log(person.getAge());
 
+
+console.log(person.getAddress());
+console.log(person.getEmail());
+
 /*
 OUTPUT:
 
@@ -52,7 +56,5 @@ Gladson Jerome
 22
 57 Downtown, CA.
 jerome97@gmail.com
-console.log(person.getAddress());
-console.log(person.getEmail());
 
 
