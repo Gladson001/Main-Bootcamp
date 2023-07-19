@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="number" id="budget" />
+    <button onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+    <script>
+      function myFunction() {
+        var budget = document.getElementById("budget").value;
+        var mypromise = new Promise(function (myResolve, myreject) {
+          if (budget < 500) {
+            myreject("Gift A");
+          } else {
+            myResolve()
+          }
+        });
+
+        mypromise.then(
+          function () {
+            let anotherpromise = new Promise(function (myres, myrej) {
+              if (budget < 1000) {
+                myrej("Gift B");
+              } else {
+                myres("Gift C")
+              }
+            });
+            anotherpromise.then(
+              function (value) {
+                document.getElementById("demo").innerHTML = value;
+              },
+              function (error) {
+                document.getElementById("demo").innerHTML = error;
+              }
+            );
+          },
+          function (error) {
+            document.getElementById("demo").innerHTML = error;
+          }
+        );
+      }
+      
+    </script>
+  </body>
+</html>
