@@ -1,0 +1,458 @@
+.poster {
+    position: relative;
+    width: 100%;
+
+}
+
+.transfrom-text {
+
+    transform: skewY(6deg) !important;
+
+}
+
+.outline {
+
+    width: 96%;
+    height: 100%;
+    position: absolute;
+    top: 30px;
+    left: 2%;
+    z-index: 9;
+    border: 2px dotted white;
+    border-bottom: 0px solid white;
+    border-radius: 80px;
+
+
+}
+
+.part1 {
+
+    top: 0px;
+    background-color: #190d22;
+    height: 800px;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+    overflow: hidden;
+    border-top-right-radius: 35%;
+    border-top-left-radius: 13%;
+
+}
+
+#part1Text1 {
+    position: absolute;
+    margin: 110px;
+    top: au;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 35px;
+    letter-spacing: 10px;
+    color: #f2a271;
+
+}
+
+#largerLetter {
+
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 250px !important;
+
+}
+
+#iconPart1 {
+    position: absolute;
+    transform: skewY(6deg);
+    margin-left: 45%;
+    margin-top: 32%;
+    color: white;
+
+}
+
+#part1Text2 {
+    position: absolute;
+    margin-top: 39%;
+    margin-left: 20%;;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+    letter-spacing: 15px;
+    color: #f0bd9c;
+
+}
+
+.part2 {
+    position: relative;
+    top: 100%;
+    background-color: #f7c9a1;
+    height: 750px;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+    overflow: hidden;
+
+}
+
+#part2Text1 {
+    position: absolute;
+    top: 5%;
+    margin-left: 10%;
+    font-family: "Goudy Bookletter 1911", sans-serif;   
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #1F1527;
+
+}
+
+#part2Text2 {
+    position: absolute;
+    top: 40%;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #070e6e;
+
+}
+
+#normalLetter {
+    font-size: 25px !important;
+}
+
+#part2Text2 p {
+    font-family: 'Georgia', Times, serif !important;
+    font-size: 20px !important;
+    width: 65%;
+    text-align: justify;
+}
+
+.part3 {
+    position: relative;
+    top: 100%;
+    background-color: #281438;
+    height: 750px;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+#part3Text1 {
+    position: absolute;
+    top: 10%;
+    margin-left: 20%;
+    font-family: 'helvetica', papyrus;
+    font-size: 35px;
+    color: #E4DAD1;
+    letter-spacing: 3px;
+
+}
+
+#part3Text2 {
+    position: absolute;
+    top: 45%;
+    margin-left: 37%;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 20px !important;
+    width: 50%;
+    text-align: justify;
+    letter-spacing: 5px;
+    color: #E4DAD1;
+
+}
+
+#part3Header {
+    margin-top: 2%;
+    transform: skewY(6deg);
+    font-size: 80px;
+    margin-left: 30%;
+
+}
+
+.part4 {
+    position: relative;
+    top: 100%;
+    background-color: #c46057;
+    height: 750px;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+    overflow: hidden;
+
+
+}
+
+#part4Text1 {
+    position: absolute;
+    top: 10%;
+    margin-left: 5%;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 35px;
+    color: #1F1527;
+    letter-spacing: 3px;
+    display: block;
+
+}
+
+#part4Text2 {
+    position: absolute;
+    top: 45%;
+    margin-left: 22%;
+    font-family: "Goudy Bookletter 1911", sans-serif;  
+    font-size: 20px !important;
+    text-align: justify;
+    letter-spacing: 5px;
+    color: #1F1527;
+    width: 50%;
+
+}
+
+.part5 {
+    position: relative;
+    top: 100%;
+    background-color: #cd1845;
+    height: 750px;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+    overflow: hidden;
+
+}
+
+#part5Text1 {
+    position: absolute;
+    top: 10%;
+    margin-left: 15%;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 35px;
+    color: rgb(190, 240, 9);
+    letter-spacing: 3px;
+    display: block;
+
+}
+
+#part5Text2 {
+    position: absolute;
+    top: 45%;
+    margin-left: 32%;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 20px !important;
+    text-align: justify;
+    letter-spacing: 5px;
+    color: rgb(114, 220, 0);
+    width: 50%;
+
+}
+
+.part6 {
+    position: relative;
+    top: 100%;
+    background-color: #1186d4;
+    height: 750px;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+
+}
+
+#part6Text1 {
+    position: absolute;
+    top: 10%;
+    margin-left: 5%;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 35px;
+    color: #e4ffdd;
+    letter-spacing: 3px;
+    display: block;
+
+}
+
+#part6Text2 {
+    position: absolute;
+    top: 45%;
+    margin-left: 20%;
+    font-family: 'helvetica', papyrus;
+    font-size: 20px !important;
+    text-align: justify;
+    letter-spacing: 5px;
+    color: #025432;
+    width: 50%;
+
+}
+
+.part7 {
+    position: relative;
+    top: 100%;
+    background-color: #1b8109;
+    height: 750px;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+
+}
+
+#part7Text1 {
+    position: absolute;
+    top: 10%;
+    margin-left: 10%;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 35px;
+    color: #460376;
+    letter-spacing: 3px;
+    display: block;
+
+}
+
+#part7Text2 {
+    position: absolute;
+    top: 45%;
+    margin-left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    text-align: justify;
+    letter-spacing: 2px;
+    color: #1d077f;
+    width: 55%;
+}
+
+#part7normalText {
+
+    color: rgb(103, 0, 137) !important;
+    font-size: 25px !important;
+
+}
+
+.part8 {
+    position: relative;
+    top: 100%;
+    background-color: #e9e9f3;
+    height: 750px;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+
+}
+
+#part8Text1 {
+    position: absolute;
+    top: 10%;
+    margin-left: 10%;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 35px;
+    color: #1F1527;
+    letter-spacing: 3px;
+    display: block;
+
+}
+
+#part8Text2 {
+    position: absolute;
+    top: 45%;
+    margin-left: 26%;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 20px !important;
+    text-align: justify;
+    letter-spacing: 2px;
+    color: #1F1527;
+    width: 55%;
+}
+
+.part9 {
+    position: relative;
+    top: 100%;
+    background-color: #e9730b;
+    height: 750px;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+
+}
+
+#part9Text1 {
+    position: absolute;
+    top: 10%;
+    margin-left: 25%;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 35px;
+    color: #2f0550;
+    letter-spacing: 3px;
+    display: block;
+
+}
+
+#part9Text2 {
+    position: absolute;
+    top: 45%;
+    margin-left: 42%;
+    font-family: 'Times New Roman', Times,  serif !important;
+    font-size: 20px !important;
+    text-align: justify;
+    letter-spacing: 2px;
+    color: #080577;
+    width: 55%;
+}
+
+#part10 {
+    position: relative;
+    top: 100%;
+    background-color: #def606;
+    z-index: 10;
+    height: 350px;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+}
+
+#part10 p {
+    width: 50% !important;
+    position: absolute;
+    top: 10%;
+    margin-left: 5%;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    color: #1F1527;
+    letter-spacing: 3px;
+
+}
+
+footer {
+    color: rgb(46, 45, 45);
+    font-size: 20px;
+    padding: 15px
+}
+
+.right {
+    margin-left: 38%;
+}
+
+.headerImage {
+    position: absolute;
+    margin-left: 40%;
+    z-index: 10;
+
+}
+
+.headerImage img {
+    width: 250px
+}
+
+#part11 {
+    position: relative;
+    margin-top: -150px;
+    top: 100%;
+    background-color: #05ff1e;
+    height: 150px;
+    clip-path: polygon(0 80px, 100% 0%, 100% 100%, 0 100%);
+    padding: 10px;
+}
+
+#part11 p {
+    margin-top: 80%;
+    font-size: 20px;
+
+}
+
+#address {
+
+    text-align: left !important;
+    margin-top: 10%;
+    margin-left: 60% !important;
+    font-size: 9px !important;
+    color: rgb(92, 3, 3) !important;
+
+}
+
+#address img {
+    top: 0;
+    width: 150px;
+    margin-left: 20%
+}
