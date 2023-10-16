@@ -1,0 +1,45 @@
+.crud-ops .btn {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.app-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.app-title small {
+  font-size: 12px;
+}
+
+.profile-btns button {
+  margin-left: 10px;
+}
+.text-right {
+  text-align: right;
+}
+.text-right a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  line-height: 60px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.navbar-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-nav a.active {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
